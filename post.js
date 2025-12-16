@@ -14,7 +14,7 @@ const posts = [
   },
   {
     titolo: "Sekiro: Shadows Die Twice",
-    contenuto: "Il protagonista è uno shinobi nel Giappone feudale, con la tua katana affronti nemici, la riuscita è basata su tempismo e precisione. Avanzi imparando i pattern dei nemici più che aumentando le statistiche.",
+    contenuto: "Interpreti uno shinobi nel Giappone feudale, con la tua katana affronti nemici, la riuscita è basata su tempismo e precisione. Avanzi imparando i pattern dei nemici più che aumentando le statistiche.",
     immagine: "sekiro.jpg",
     tags: ["action", "soulslike", "single player", "difficile"]
   },
@@ -32,3 +32,5 @@ const posts = [
   },
 
 ];
+
+export default posts;
