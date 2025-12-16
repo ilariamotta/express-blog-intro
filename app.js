@@ -4,6 +4,9 @@ import posts from "./post.js";
 const app = express();
 const port = 3000;
 
+
+app.use(express.static("public"))
+
 app.get("/", (req, res) => {
     console.log("Server del mio blog")
     res.json("Server del mio blog")
